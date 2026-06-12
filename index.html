@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hemanth Kandula | 3D Portfolio</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
+</head>
+<body>
+
+    <canvas id="bg-canvas"></canvas>
+
+    <nav class="navbar">
+        <div class="logo">HK.</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#orinson-tasks">Orinson Tasks</a></li>
+            <li><a href="#personal-projects">Engineering</a></li>
+            <li><a href="#skills">Skills</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        
+        <section id="home" class="hero fade-in">
+            <div class="badge">🚀 Intern at Orinson Technologies Pvt Ltd</div>
+            <h1>Hemanth Kandula</h1>
+            <div class="subtitle">Software Engineer | MERN Stack & Python</div>
+            <p class="hero-text">
+                Bridging the gap between creative front-end design and robust back-end architecture. Passionate about building highly scalable systems, quantitative infrastructure, and shaping digital innovation.
+            </p>
+            <div class="cta-buttons">
+                <a href="#orinson-tasks" class="btn btn-outline">View Internship Tasks</a>
+                <a href="#personal-projects" class="btn btn-primary">Explore Personal Projects</a>
+            </div>
+        </section>
+
+        <section id="orinson-tasks" class="fade-in">
+            <h2 class="section-title">Orinson Internship Tasks</h2>
+            <div class="grid">
+                
+                <div class="card" data-tilt data-tilt-max="10" data-tilt-speed="400" data-tilt-perspective="500">
+                    <h3>Professional Portfolio</h3>
+                    <div class="tags">
+                        <span class="tag">HTML5</span>
+                        <span class="tag">CSS3</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                    <p>A fully responsive personal portfolio designed to showcase projects and professional details with a clean, modern UI.</p>
+                    <a href="https://khemanth2709.github.io/portfolio_Orinson_techiee/" target="_blank" class="btn btn-primary btn-sm">Live Demo</a>
+                </div>
+
+                <div class="card" data-tilt data-tilt-max="10" data-tilt-speed="400" data-tilt-perspective="500">
+                    <h3>E-Commerce Platform</h3>
+                    <div class="tags">
+                        <span class="tag">Web Design</span>
+                        <span class="tag">UI/UX</span>
+                    </div>
+                    <p>A frontend interface for a modern e-commerce platform featuring product displays, clean navigation, and cart aesthetics.</p>
+                    <a href="https://khemanth2709.github.io/ecommerce_Orinson_techiee/" target="_blank" class="btn btn-primary btn-sm">Live Demo</a>
+                </div>
+
+                <div class="card" data-tilt data-tilt-max="10" data-tilt-speed="400" data-tilt-perspective="500">
+                    <h3>Dynamic To-Do List</h3>
+                    <div class="tags">
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">DOM Config</span>
+                    </div>
+                    <p>An interactive task management web application allowing users to add, track, and manage daily responsibilities seamlessly.</p>
+                    <a href="https://khemanth2709.github.io/todolist_Orinson_techiee/" target="_blank" class="btn btn-primary btn-sm">Live Demo</a>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="personal-projects" class="fade-in">
+            <h2 class="section-title">Advanced Personal Projects</h2>
+            <div class="grid">
+                
+                <div class="card" data-tilt data-tilt-max="10" data-tilt-speed="400" data-tilt-perspective="500">
+                    <h3>MindVault</h3>
+                    <div class="tags">
+                        <span class="tag">MERN Stack</span>
+                        <span class="tag">Voice-to-Idea</span>
+                    </div>
+                    <p>A complex thought preservation system featuring idea relationship mapping and voice-to-idea capture to foster innovation.</p>
+                    <a href="#" class="btn btn-secondary btn-sm">View Architecture</a>
+                </div>
+
+                <div class="card" data-tilt data-tilt-max="10" data-tilt-speed="400" data-tilt-perspective="500">
+                    <h3>SustainSphere</h3>
+                    <div class="tags">
+                        <span class="tag">React</span>
+                        <span class="tag">Node.js</span>
+                        <span class="tag">Gamification</span>
+                    </div>
+                    <p>A comprehensive sustainability tracking application built with a dynamic dashboard and gamified user discovery mechanics.</p>
+                    <a href="#" class="btn btn-secondary btn-sm">View Repository</a>
+                </div>
+                
+                 <div class="card" data-tilt data-tilt-max="10" data-tilt-speed="400" data-tilt-perspective="500">
+                    <h3>Algorithmic Trading Bot</h3>
+                    <div class="tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Quant Finance</span>
+                    </div>
+                    <p>A production-grade algorithmic trading system utilizing statistical analysis and machine learning models for market efficiency.</p>
+                    <a href="#" class="btn btn-secondary btn-sm">View System</a>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="skills" class="fade-in">
+            <h2 class="section-title">Technical Arsenal</h2>
+            <div class="skills-container">
+                <div class="skill-pill">React.js</div>
+                <div class="skill-pill">Node.js</div>
+                <div class="skill-pill">MongoDB</div>
+                <div class="skill-pill">Next.js</div>
+                <div class="skill-pill">Python</div>
+                <div class="skill-pill">Data Structures & Algorithms</div>
+                <div class="skill-pill">Firebase</div>
+                <div class="skill-pill">Agile/DevOps</div>
+            </div>
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
